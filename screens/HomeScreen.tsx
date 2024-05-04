@@ -6,7 +6,7 @@ const styles = require("../style");
 
 type Props = NativeStackScreenProps<RootStackParamList, "HomeScreen">;
 
-export default function App({ navigation }: Props) {
+export default function HomeScreen({ navigation }: Props) {
 	const handleTasksPress = () => {
 		navigation.navigate("Tasks");
 	};
