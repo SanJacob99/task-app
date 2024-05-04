@@ -1,0 +1,72 @@
+{
+    "id": "2025a4f7-6693-44de-81b5-9dd60cd678ce",
+    "createdAt": "2024-05-04T05:10:11.587Z",
+    "runtimeVersion": "exposdk:50.0.0",
+    "launchAsset": {
+        "key": "bundle",
+        "contentType": "application/javascript",
+        "url": "http://192.168.100.10:8081/node_modules%5Cexpo%5CAppEntry.bundle?platform=ios&dev=true&hot=false&transform.engine=hermes&transform.bytecode=true&transform.routerRoot=app"
+    },
+    "assets": [],
+    "metadata": {},
+    "extra": {
+        "eas": {},
+        "expoClient": {
+            "name": "task-app",
+            "slug": "task-app",
+            "version": "1.0.0",
+            "orientation": "portrait",
+            "icon": "./assets/icon.png",
+            "userInterfaceStyle": "light",
+            "splash": {
+                "image": "./assets/splash.png",
+                "resizeMode": "contain",
+                "backgroundColor": "#ffffff",
+                "imageUrl": "http://192.168.100.10:8081/assets/./assets/splash.png"
+            },
+            "assetBundlePatterns": [
+                "**/*"
+            ],
+            "ios": {
+                "supportsTablet": true
+            },
+            "android": {
+                "adaptiveIcon": {
+                    "foregroundImage": "./assets/adaptive-icon.png",
+                    "backgroundColor": "#ffffff",
+                    "foregroundImageUrl": "http://192.168.100.10:8081/assets/./assets/adaptive-icon.png"
+                }
+            },
+            "web": {
+                "favicon": "./assets/favicon.png"
+            },
+            "_internal": {
+                "isDebug": false,
+                "projectRoot": "C:\\Users\\Usuario\\task-app",
+                "dynamicConfigPath": null,
+                "staticConfigPath": "C:\\Users\\Usuario\\task-app\\app.json",
+                "packageJsonPath": "C:\\Users\\Usuario\\task-app\\package.json"
+            },
+            "sdkVersion": "50.0.0",
+            "platforms": [
+                "ios",
+                "android"
+            ],
+            "iconUrl": "http://192.168.100.10:8081/assets/./assets/icon.png",
+            "hostUri": "192.168.100.10:8081"
+        },
+        "expoGo": {
+            "debuggerHost": "192.168.100.10:8081",
+            "developer": {
+                "tool": "expo-cli",
+                "projectRoot": "C:\\Users\\Usuario\\task-app"
+            },
+            "packagerOpts": {
+                "dev": true
+            },
+            "mainModuleName": "node_modules\\expo\\AppEntry",
+            "__flipperHack": "React Native packager is running"
+        },
+        "scopeKey": "@anonymous/task-app-4c8e1916-c69c-4978-9fc6-1daf3b457e5d"
+    }
+}
