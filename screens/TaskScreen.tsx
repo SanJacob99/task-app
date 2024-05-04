@@ -60,6 +60,7 @@ export default function TaskScreen() {
 							value={newTask}
 							placeholder={error ? "Please fill this field" : "Enter task name here"}
 							placeholderTextColor={error ? "#FF0000" : "#A9A9A9"}
+							id="task-input"
 						/>
 						<TouchableHighlight style={[styles.buttonContainer]} onPress={handleAddTask} underlayColor="#C5C5C5">
 							<Text style={styles.buttonText}>Add Task</Text>
