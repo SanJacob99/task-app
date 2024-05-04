@@ -2,7 +2,6 @@ import React from "react";
 import { render, fireEvent } from "@testing-library/react-native";
 import HomeScreen from "./screens/HomeScreen";
 
-// Mocking navigation props
 const mockNavigate = jest.fn();
 const navigation = {
 	navigate: mockNavigate

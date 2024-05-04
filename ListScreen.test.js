@@ -2,7 +2,6 @@ import React from "react";
 import { render, waitFor } from "@testing-library/react-native";
 import ListScreen from "./screens/ListScreen";
 
-// Mocking the fetch function
 global.fetch = jest.fn(() =>
 	Promise.resolve({
 		ok: true,
