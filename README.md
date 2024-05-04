@@ -9,7 +9,7 @@
 
 # To run
 1. npx i
-2. npx expo
+2. npx expo start
 
 ## Source
 https://docs.expo.dev/more/expo-cli/
