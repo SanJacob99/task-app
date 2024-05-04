@@ -17,24 +17,24 @@ const styles = StyleSheet.create({
 		flexDirection: "row",
 		alignItems: "center",
 		padding: 10,
-		backgroundColor: "#f0f0f0", // Placeholder background color
+		backgroundColor: "#f0f0f0",
 		borderRadius: 8,
-		marginBottom: 10 // Adjust as needed
+		marginBottom: 10
 	},
 	imageContainer: {
 		marginRight: 10,
 		height: 60,
 		width: 60,
-		backgroundColor: "#d3d3d3", // Placeholder image background color
+		backgroundColor: "#d3d3d3",
 		borderRadius: 30
 	},
 	textContainer: {
 		flex: 1
 	},
 	namePlaceholder: {
-		width: "50%", // Adjust width as needed
-		height: 16, // Adjust height as needed
-		backgroundColor: "#d3d3d3", // Placeholder text background color
+		width: "50%",
+		height: 16,
+		backgroundColor: "#d3d3d3",
 		borderRadius: 4
 	}
 });
