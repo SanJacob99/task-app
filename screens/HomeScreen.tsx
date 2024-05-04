@@ -1,7 +1,11 @@
 import React from "react";
 import { StyleSheet, View, TouchableHighlight, Text, Alert } from "react-native";
+import { RootStackParamList } from "../types/NavigationTypes";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
 
-export default function App({ navigation }) {
+type Props = NativeStackScreenProps<RootStackParamList, "HomeScreen">;
+
+export default function App({ navigation }: Props) {
 	const handleTasksPress = () => {
 		navigation.navigate("Tasks");
 	};
