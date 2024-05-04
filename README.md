@@ -1,15 +1,15 @@
 # Using 
-React Native
-Expo
+1. React Native
+2. Expo
 
 # Requirments
-Node 20>
-Expo
-Expo CLI
+1. Node 20>
+2. Expo
+3. Expo CLI
 
 # To run
-npx i
-npx expo
+1. npx i
+2. npx expo
 
 ## Source
 https://docs.expo.dev/more/expo-cli/
